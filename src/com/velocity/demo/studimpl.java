@@ -38,6 +38,7 @@ public class studimpl{
 	}
 
 	public boolean updatestud(stud s){
+		System.out.println("hii");
 		query ="update stud set name=? where rno=?";
 		try {
 			ps=conn.prepareStatement(query);

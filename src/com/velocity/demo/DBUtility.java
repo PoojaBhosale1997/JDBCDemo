@@ -5,6 +5,8 @@ import java.sql.DriverManager;
 
 public class DBUtility {
 	public static Connection makeConnection() {
+		System.out.println("hiii");
+		System.out.println("hello");
 		Connection conn=null;
 		try {
 			
@@ -14,7 +16,7 @@ public class DBUtility {
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
-		System.out.println("connection successful");
+		
 		return conn;
 	}
 	
