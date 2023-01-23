@@ -1,6 +1,7 @@
 package com.velocity.demo;
 
 public class stud {
+	
 	int rno;
 	String name;
 	@Override
@@ -17,6 +18,7 @@ public class stud {
 		return name;
 	}
 	public void setName(String name) {
+		System.out.println("hello");
 		this.name = name;
 	}
 	public stud(int rno, String name) {
