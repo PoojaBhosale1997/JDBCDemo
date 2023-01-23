@@ -14,6 +14,7 @@ public class DBUtility {
 		} catch (Exception e) {
 			// TODO: handle exception
 		}
+		System.out.println("connection successful");
 		return conn;
 	}
 	
